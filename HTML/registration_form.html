@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h1 align="center"><u>Student Registration Form</u></h1>
+    <form align="center">
+        <table border="0", cellpadding="6" ,cellspacing="0" , align="center">
+            <tr>
+                <td>Full Name:</td>
+                <td><input type="text" name="fullname" required></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td>Confirm Password:</td>
+                <td><input type="password" name="Confirm" required></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female
+                    <input type="radio" name="gender" value="others">Others
+                </td>
+            </tr>
+            <tr>
+                <td>Hobbies:</td>
+                <td>
+                    <input type="checkbox" name="Hobbies" value="reading">Reading
+                    <input type="checkbox" name="Hobbies" value="music">Music
+                    <input type="checkbox" name="Hobbies" value="dancing">Dancing
+                </td>
+            </tr>
+            <tr>
+                <td>Course:</td>
+                <td>
+                    <select name="Course">
+                        <option>B.Tech</option>
+                        <option>M.Tech</option>
+                        <option>BCA</option>
+                        <option>MCA</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><textarea name="Address" placeholder="Enter your address"></textarea>
+            </td>
+            </tr>
+        </table>
+        <button>SUBMIT</button>
+        <button>RESET</button>
+    </form>
+</body>
+</html>
